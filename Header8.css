@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-out;
+}
+
+body{
+    background-image: url(./images/Image\ \(2\).png);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 14px 18px;
+}
+
+.header-content a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    margin: 14px;
+    float: left;
+}
+.header-content:hover{
+    color: gray;
+}
+
+
+.slideshow-container {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+ 
+  h1 { color: #fff;font-size: 30px;font-weight: 600;}
+  h2 { color: #000;font-size: 30px;font-weight: 600;}
+  h3 { color: #d40b0b;font-size: 30px;font-weight: 600;}
+  
+  .author {color: #fff;margin-top: 20px;font-size: 20px;}
+
+  .btn a:hover{
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #482BE7;
+    text-align: center;
+    align-items: center;
+    margin-left: 44%;
+    cursor: pointer;
+    }
+.btn a{
+  text-decoration: none;
+  color: black;
+  margin-left: 45%;
+}
+.next1{
+  background-color:#25DAC5;
+  padding: 8px 18px;
+  border-radius: 20px;
+  width: 6%;
+  margin-top: 20px;
+  margin-left: 70%;
+}
+.next1 a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-out;
+}
+
+body{
+    background-image: url(./images/Image\ \(3\).png);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 18px;
+    margin: 10px;
+    
+}
+
+.startup{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    top:10px;
+}
+h2{
+   margin-left: 300px;
+   top:20px;
+}
+ .items{
+    margin-left: 30px;
+    margin: 6px;
+ }
+
+ .items a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    margin: 10px;
+ }
+
+.btn a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    margin: 10px;
+    float: left;
+}
+.btn a:hover{
+    padding: 8px 18px;
+    margin: 6px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #25DAC5;
+}
+
+
+.paragragh{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+.contant{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.next{
+    background-color:#25DAC5;
+    padding: 8px 18px;
+    border-radius: 20px;
+    width: 6%;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.next{
+    background-color:#25DAC5;
+    padding: 8px 18px;
+    border-radius: 20px;
+    width: 6%;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+ 
